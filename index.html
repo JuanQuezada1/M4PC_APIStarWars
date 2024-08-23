@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Star Wars Character Dimensions</title>
+</head>
+<body>
+  <header class="text-center my-4">
+    <h1>Dimensiones de la vida real de <br />los personajes de Star Wars</h1>
+  </header>
+  <main class="container">
+    <ul class="list-unstyled ps-lg-4">
+      <li data-range="1-5">
+        <section class="section mb-4" id="principal">
+          <div class="card shadow-sm p-3 mb-3 rounded">
+            <div class="circle"></div>
+            <div>
+              <h2>En esta sección...</h2>
+              <p>
+                Encontrarás información sobre los personajes más populares de
+                las películas.
+              </p>
+            </div>
+          </div>
+          <div class="characters-container"></div>
+        </section>
+      </li>
+
+      <li data-range="6-10">
+        <section class="section mb-4" id="secondary">
+          <div class="card shadow-sm p-3 mb-3 rounded">
+            <div class="circle"></div>
+            <div>
+              <h2>En esta sección...</h2>
+              <p>
+                Encontrarás información sobre los personajes secundarios
+                importantes.
+              </p>
+            </div>
+          </div>
+          <div class="characters-container"></div>
+        </section>
+      </li>
+
+      <li data-range="11-15">
+        <section class="section mb-4" id="other">
+          <div class="card shadow-sm p-3 mb-3 rounded">
+            <div class="circle"></div>
+            <div>
+              <h2>En esta sección...</h2>
+              <p>Encontrarás otros personajes significativos.</p>
+            </div>
+          </div>
+          <div class="characters-container"></div>
+        </section>
+      </li>
+    </ul>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/apiHandler.js"></script>
+  <script src="./js/generator.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
